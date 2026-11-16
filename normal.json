@@ -1,0 +1,39 @@
+{
+  "name": "Normal automotive workload",
+  "description": "A moderate periodic workload in which controller tasks have time to meet their deadlines.",
+  "horizon_ms": 100,
+  "tasks": [
+    {
+      "name": "Brake monitor",
+      "execution_ms": 2,
+      "period_ms": 10,
+      "deadline_ms": 10,
+      "offset_ms": 0,
+      "color": "#D94F4F"
+    },
+    {
+      "name": "Engine monitor",
+      "execution_ms": 4,
+      "period_ms": 20,
+      "deadline_ms": 20,
+      "offset_ms": 0,
+      "color": "#4C78A8"
+    },
+    {
+      "name": "ABS check",
+      "execution_ms": 3,
+      "period_ms": 20,
+      "deadline_ms": 20,
+      "offset_ms": 0,
+      "color": "#59A14F"
+    },
+    {
+      "name": "Dashboard update",
+      "execution_ms": 2,
+      "period_ms": 50,
+      "deadline_ms": 50,
+      "offset_ms": 0,
+      "color": "#B07AA1"
+    }
+  ]
+}

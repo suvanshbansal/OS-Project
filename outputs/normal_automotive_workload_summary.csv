@@ -1,0 +1,3 @@
+scenario,policy,offered_load_percent,total_jobs,completed_jobs,missed_deadlines,on_time_percent,average_response_ms,average_turnaround_ms,average_waiting_ms,average_tardiness_ms,maximum_tardiness_ms,cpu_utilization_percent,makespan_ms
+Normal automotive workload,RM,59.00,22,22,0,100.00,2.318,5.091,2.409,0.000,0,59.00,100
+Normal automotive workload,EDF,59.00,22,22,0,100.00,2.318,5.091,2.409,0.000,0,59.00,100
